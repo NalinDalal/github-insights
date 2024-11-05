@@ -1,0 +1,10 @@
+docs/**/*
+src/**/*
+.git/**/*
+.github/**/*
+.bruno/**/*
+
+Dockerfile
+example.env
+tsconfig.json
+jest.config.js

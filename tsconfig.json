@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["assets/*"],
+      "@util": ["src/util/index.ts"],
+      "@domain": ["src/domain/index.ts"],
+      "@presentation": ["src/presentation/index.ts"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./dist/**/*"]
+}
